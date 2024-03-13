@@ -1,0 +1,31 @@
+soup = beatufulsoup(res.text, 'html.parser')
+
+beatifulsoup的方法
+soup.find("標籤", 屬性=值 / {"屬性":"值"} ) 只會找第一個
+    .find_all() 找全部 --> list
+    .select_one("標籤.class#id 標籤") 只會找第一個
+    .select() 找全部  --> list
+    .text / .string 取內容
+    ['屬性名稱']
+    .extract() 萃取移除
+
+
+
+HW: ptt 任意版5頁  每篇文章存在文字檔裡面 (eg:p.242)
+
+標頭- 作者、看板、標題、時間
+
+文章-
+
+推: 數
+噓: 數
+分數: 推-噓
+
+作者:
+標題:
+時間:
+
+
+
+
+
